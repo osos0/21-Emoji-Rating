@@ -27,14 +27,13 @@ body {
   font-size: 50px;
   background-color: yellow;
   display: flex;
-  /* color: gold; */
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.fa-regular {
-  margin: 1px;
+.space {
+  /* margin: 1px; */
   /* transform: translateX(-50px); */
 }
 
@@ -51,8 +50,10 @@ body {
   font-size: 30px;
   cursor: pointer;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  /* transform: translateX(-50px); */
 }
 
 .active {
+  transition: 200ms;
   color: gold;
 }
