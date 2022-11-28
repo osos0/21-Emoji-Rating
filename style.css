@@ -29,12 +29,13 @@ body {
   display: flex;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .space {
   /* margin: 1px; */
   /* transform: translateX(-50px); */
+  /* display: none; */
 }
 
 .rating-container {
